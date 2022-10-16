@@ -11,7 +11,8 @@ namespace Application.Common.Interfaces
 {
     public interface IApplicationDbContext
     {
-        DbSet<CartItemDbSet> Items { get; set; }
-        DbSet<ItemDbSet> CartItems { get; set; }
+        DbSet<CartItemDbSet> CartItems { get; set; }
+        DbSet<ItemDbSet> Items { get; set; }
+        bool SaveDbChanges();
     }
 }
