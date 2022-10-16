@@ -1,1 +1,1 @@
-CartAppSln-CleanArchitecture
+# CartApp - CleanArchitecture Demo
